@@ -19,7 +19,7 @@ Rules that adapt for you. All contributions are welcome.
 </div>
 
 ## 🧑‍💻 How to contribute?
-If you want to contribute to Escape Rules, check out our contribution guidelines. We'll send Escape's swag to the top contributors each month and celebrate them in our community 🤩
+If you want to contribute to Escape Rules, check out our [contribution guidelines](https://github.com/Escape-Technologies/escape-rules/blob/main/Contribution-Guidelines.md). We'll send Escape's swag to the top contributors each month and celebrate them in our community 🤩
 
 ## 🤝 Discussions and Community
 Any questions or just want to share your ideas with others? Feel free to join our [Slack community](https://slack.escape.tech/) and ask project maintainers or your peers! You are always welcome to also chat about all things security there. 
