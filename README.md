@@ -4,7 +4,7 @@ Rules that adapt for you. All contributions are welcome.
 
   <br />
 <br />
-  <a href="https://escape.tech/">Contributions </a>
+  <a href="https://github.com/Escape-Technologies/escape-rules/blob/main/Contribution-Guidelines.md">Contributions </a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
    <a href="https://slack.escape.tech/"> Discussion</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
