@@ -1,8 +1,11 @@
 <div align="center">
-  <h1>👋 Welcome to Escape rules</h1>
+
+  <h1>👋 Welcome to Escape Rules</h1>
+
+![Escape Rules](https://26857953.fs1.hubspotusercontent-eu1.net/hubfs/26857953/escape-rules-github.png)
+
 Rules that adapt for you. All contributions are welcome.
 
-  <br />
 <br />
   <a href="https://github.com/Escape-Technologies/escape-rules/blob/main/Contribution-Guidelines.md">Contributions </a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
@@ -26,7 +29,5 @@ Any questions or just want to share your ideas with others? Feel free to join ou
 
 ## 📖 Documentation
 Please go to [https://docs.escape.tech/custom-tests](https://docs.escape.tech/custom-tests) for detailed documentation on how to build new Escape rules. We have also added some examples of templates to help you understand how things work.
-
-
 
 
