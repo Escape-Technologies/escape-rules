@@ -14,7 +14,7 @@ Fork this repository. This will create a local copy of this repository on your G
 Create a new branch. Use its name to identify the issue you are addressing.
 
 ## 4. Create Rule and Commit
-- Create your template.
+- Create your template, use [the available template](./rule_template.yaml)
 - Add all the files/folders needed.
 - After you've made changes or completed rule creation, add changes to the branch you've just created.
 - Don't forget to give a descriptive message to clearly explain to the reviewer the main purpose of your rule.
