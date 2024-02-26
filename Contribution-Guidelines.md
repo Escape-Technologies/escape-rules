@@ -5,7 +5,16 @@ No contribution is too small 🤗
 ## 1. Take a look at existing rules
 
 Please, take a look at the existing Escape Rules and Rules in GutHub Issues or Pull Requests before creating a new one. Don't invest your energy in duplicate work 😉
-Take a look [at the documentation](https://docs.escape.tech/custom-tests) on how the Rules work. 
+Take a look [at the documentation](https://docs.escape.tech/custom-tests) on how the Rules work.
+
+The structure of the project is simple:
+- Business-logic
+  - These tests are agnostic to the underlying technology, and leverage the inference engine of Escape to detect the type of data manipulated.
+  - You can find inspiration for your business-related API features here, and check that the proper validations and steps are in place.
+- Technologies
+  - These tests are more specific to a particular framework or library, with misconfigurations or dangerous versions.
+- Vulnerabilities
+  - These tests are closer to [common CWE patterns](https://cwe.mitre.org/index.html) and validate implementation flaws.
 
 ## 2. Fork the project
 Fork this repository. This will create a local copy of this repository on your Github Profile. Keep a reference to the original project in upstream remote.
