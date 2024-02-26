@@ -1,3 +1,8 @@
+info:
+  author: <your_github_or_twitter_handle>
+  reference:
+    - https://example.com
+  tags: comma,separated,list
 alert:
   name: <alert_name>
   context: >
