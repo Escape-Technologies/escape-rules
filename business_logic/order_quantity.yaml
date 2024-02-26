@@ -1,0 +1,28 @@
+info:
+  author: Gby56
+  tags: order,quantity,logic
+alert:
+  name: An order processing feature has accepted an unreasonable amount
+  context: You might wanna check that.
+  severity: HIGH
+detect:
+  - if: response.status_code
+    is: 200
+transform:
+  mutate:
+    - key: request.object
+      mutate:
+        value: "65535"
+      select:
+        name:
+          is: quantity
+        type:
+          is: amount
+  trigger:
+    - if: request.object
+      name:
+        is: quantity
+      type:
+        is: amount
+    - if: schema.path_ref
+      contains: order
