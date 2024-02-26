@@ -1,0 +1,20 @@
+info:
+  author: Gby56
+  reference:
+    - https://0xn3va.gitbook.io/cheat-sheets/framework/spring/spring-boot-actuators
+  tags: spring,actuator
+alert:
+  name: Exposed Spring Boot Actuator Endpoint
+  context: A Spring Boot Actuator endpoint is publicly accessible and could reveal
+    sensitive information.
+  severity: HIGH
+detect:
+  - if: response.status_code
+    is: 200
+transform:
+  mutate:
+    - key: schema.path_ref
+      value: /actuator/beans
+  trigger:
+    - if: scan.type
+      is: REST
