@@ -1,0 +1,33 @@
+info:
+  author: Gby56
+  reference:
+    - https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html
+  tags: header,sniffing,xss
+alert:
+  name: Content type sniffing is not disabled
+  context: Your API seems to be XSS injectable and has content type sniffing, which can lead to XSS under your domain.
+  severity: HIGH
+detect:
+  - if: response.status_code
+    is: 200
+  - if: response.headers
+    key:
+      is: X-Content-Type-Options
+    value:
+      is_not: nosniff
+  - if: response.body.text
+    contains: '<script>alert(\"escaped!\")</script>'
+transform:
+  mutate:
+    - key: request.object
+      select:
+        type:
+          is: string
+      mutate:
+        value: '<script>alert(\"escaped!\")</script>'
+  trigger:
+    - if: response.headers
+      key:
+        is: X-Content-Type-Options
+      value:
+        is_not: nosniff
