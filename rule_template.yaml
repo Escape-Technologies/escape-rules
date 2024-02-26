@@ -1,0 +1,19 @@
+alert:
+  name: <alert_name>
+  context: >
+    <context_of_your_alert>
+  severity: <severity>
+detect: # https://docs.escape.tech/custom-tests/Detectors
+  - if: <detector>
+    is: <condition>
+transform: # https://docs.escape.tech/custom-tests/Transformations
+  trigger:
+    - if: <detector>
+      is: <condition>
+  mutate: # https://docs.escape.tech/custom-tests/Mutators
+    - key: <mutator>
+      value: <payload>
+# You can also use seeders to send raw http requests directly
+# https://docs.escape.tech/custom-tests/Seeders
+
+# See the full language reference at https://docs.escape.tech/custom-tests/Reference
