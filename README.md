@@ -30,4 +30,5 @@ Any questions or just want to share your ideas with others? Feel free to join ou
 ## 📖 Documentation
 Please go to [https://docs.escape.tech/custom-tests](https://docs.escape.tech/custom-tests) for detailed documentation on how to build new Escape rules. We have also added some examples of templates to help you understand how things work.
 
-
+## ✍️ Workshop
+Want to learn how to write custom security tests for your APIs? [Sign up for our upcoming workshop.](https://app.getcontrast.io/register/escape-custom-security-tests-workshop?utm_source=github&utm_medium=organic)
